@@ -1,0 +1,16 @@
+package main;
+
+import java.util.stream.Stream;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int result =  Stream.of( 23, 40, 50, 66, 12 )
+				.reduce( 0 , ( variable, elemento ) -> variable + elemento );
+		
+		System.out.println(result);
+		
+	}
+
+}

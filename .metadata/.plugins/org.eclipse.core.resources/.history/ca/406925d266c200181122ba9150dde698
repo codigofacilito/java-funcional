@@ -1,0 +1,14 @@
+package main;
+
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Conocer si un alumno posee por lo menos una materia reprobada.
+		// La calificación minima aprobatoria es 6.
+		
+		
+	}
+
+}

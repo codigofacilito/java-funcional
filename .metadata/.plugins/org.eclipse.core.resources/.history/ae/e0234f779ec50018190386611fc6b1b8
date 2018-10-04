@@ -1,0 +1,18 @@
+package main;
+
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Obtener la suma de todos los elementos mayores a 10.
+		
+		List<Integer> numeros = List.of(18, 6, 4, 15, 55, 78, 12, 9, 8);
+		
+		
+		
+		numeros.stream().filter(num -> num > 10).ma
+		
+	}
+
+}

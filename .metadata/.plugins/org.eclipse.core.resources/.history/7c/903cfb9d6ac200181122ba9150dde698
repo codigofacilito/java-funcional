@@ -1,0 +1,22 @@
+package main;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Obtener el nombre de un usuario que tenga la edad de 25.
+		
+		List<User> users = new ArrayList<>();
+		
+		users.add(new User("Rafael", 25));
+		users.add(new User("Daniel", 20));
+		users.add(new User("Tania", 15));
+		users.add(new User("Luisa", 24));
+		users.add(new User("Raul", 21));
+		
+		
+		
+	}		
+}

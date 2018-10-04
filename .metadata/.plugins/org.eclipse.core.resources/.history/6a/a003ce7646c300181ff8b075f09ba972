@@ -1,0 +1,24 @@
+package main;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Referencia a un constructor.
+		
+		// Generar nuevos usuarios e imprimir sus nombres en consola.
+		
+		List<User> users = new ArrayList<>();
+		
+		IUser iUser = User::new;
+		User user1 = iUser.createUser("Codi 1", 1);
+		User user2 = iUser.createUser("Codi 2", 2);
+		User user3 = iUser.createUser("Codi 3", 3);
+		
+		
+		users.stream().map(User::getName).forEach(System.out::println);
+	}
+
+}

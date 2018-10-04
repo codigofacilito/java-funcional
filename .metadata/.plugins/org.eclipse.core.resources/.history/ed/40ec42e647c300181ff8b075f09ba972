@@ -1,0 +1,7 @@
+package main;
+
+public interface IUser {
+	// un método abstracto -> por cada constructor
+	
+	
+}

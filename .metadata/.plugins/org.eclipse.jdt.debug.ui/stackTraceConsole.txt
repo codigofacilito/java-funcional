@@ -1,0 +1,2 @@
+Referencia a métodos de instancia
+ de forma arbitraria.

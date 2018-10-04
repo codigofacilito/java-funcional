@@ -1,0 +1,9 @@
+package main;
+
+public interface IUser {
+	
+	//un método abstracto por cada constructor.
+	User create(String name, int age);
+	
+	User create();
+}

@@ -1,0 +1,15 @@
+package main;
+
+import java.util.Arrays;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// FlatMap
+		
+		List<String> names = Arrays.asList("Codi 1", "Codi 2");
+		List<String> lastName = Arrays.asList("Codi 3", "Codi 4");
+
+	}
+
+}

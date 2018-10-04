@@ -1,0 +1,8 @@
+package main;
+
+public class Calculadora {
+	
+	public static int toCube(int numero) {
+		return numero * numero * numero;
+	}
+}

@@ -1,0 +1,7 @@
+package main;
+
+public interface IUser {
+
+	User createUser(String name, int age);
+	
+}

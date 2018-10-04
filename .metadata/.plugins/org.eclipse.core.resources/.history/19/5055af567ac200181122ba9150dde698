@@ -1,0 +1,13 @@
+package main;
+
+import java.util.stream.Stream;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Stream.of( 23, 40, 50, 66, 12 );
+		
+	}
+
+}

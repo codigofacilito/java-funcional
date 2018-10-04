@@ -1,0 +1,12 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		String[] users = {"Codi 1", "Codi 2", "Codi 1", "Codi 3" };
+		
+		
+	}
+
+}

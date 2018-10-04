@@ -1,0 +1,20 @@
+package main;
+
+public class Curso {
+
+	private String titulo;
+	private float duracion;
+	private int videos; //cantidad de vídeos
+	private int alumnos; //Cantidad de alumnos
+	
+	public Curso(String titulo, int duracion, int videos, int alumnos) {
+		this.titulo = titulo;
+		this.duracion = duracion;
+		this.videos = videos;
+		this.alumnos = alumnos;
+	}
+	
+	
+	
+	
+}

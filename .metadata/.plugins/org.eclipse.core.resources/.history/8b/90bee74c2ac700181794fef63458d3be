@@ -1,0 +1,17 @@
+package main;
+
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Obtener la cantidad de elementos mayores a 10.
+		
+		//Declarativo.
+		
+		
+		//Imperativo
+		
+	}
+
+}

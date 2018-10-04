@@ -1,0 +1,11 @@
+package main;
+
+public class Curso {
+
+	private String titulo;
+	private float duracion;
+	private int cantidadVideos;
+	
+	
+	
+}
